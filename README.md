@@ -64,7 +64,7 @@ python3 -m http.server 8080
 If you're working from the source files (before bundling):
 
 ```
-/dashboard
+/Data_Viz_Dashboard
 ├── index.html       # Markup: sidebar, topbar, chart canvases, skeleton
 ├── style.css        # All styles: tokens, themes, layout, animations
 ├── script.js        # Chart logic, filters, counters, live sim, export
