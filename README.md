@@ -1,4 +1,4 @@
-# Data Viz Dashboard
+# Pulsar Data Viz Dashboard
 
 A modern, fully responsive analytics dashboard built with pure HTML, CSS, and Vanilla JavaScript. No build tools or frameworks required — just open and run.
 
@@ -47,14 +47,14 @@ No installation needed. Everything runs from a single HTML file.
 
 ```bash
 # Clone or download the file, then open it
-open pulsar-dashboard.html
+open index.html
 ```
 
 Or serve it locally if you prefer:
 
 ```bash
 python3 -m http.server 8080
-# then visit http://localhost:8080/pulsar-dashboard.html
+# then visit http://localhost:8080/index.html
 ```
 
 ---
@@ -64,14 +64,14 @@ python3 -m http.server 8080
 If you're working from the source files (before bundling):
 
 ```
-/Data_Viz_Dashboard
+/Pulsar_Data_Viz_Dashboard
 ├── index.html       # Markup: sidebar, topbar, chart canvases, skeleton
 ├── style.css        # All styles: tokens, themes, layout, animations
 ├── script.js        # Chart logic, filters, counters, live sim, export
 └── data.json        # Sample data (also embedded in script.js for portability)
 ```
 
-The `pulsar-dashboard.html` file is the fully self-contained version with CSS and JS inlined — no external files needed except the Chart.js CDN.
+The `index.html` file is the fully self-contained version with CSS and JS inlined — no external files needed except the Chart.js CDN.
 
 ---
 
